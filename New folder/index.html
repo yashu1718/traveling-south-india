@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travelling India</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop To </h2> 
+          <h3>Exploring The south India</h3>
+          <p>India is a peninsula, bound by the Indian Ocean in the south,
+               the Arabian Sea on the west and Bay of Bengal in the east. The coastline of India is of about 7,517 km (4,671 mi) long.
+               India has the third largest military force in the world and is also a nuclear weapon state..</p>
+          <a href="index1.html">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+          const menutoggle = document.querySelector('.toggle')
+          const showcase = document.querySelector('.showcase')
+
+          menutoggle.addEventListener('click', () =>{
+              menutoggle.classList.toggle('active')
+              showcase.classList.toggle('active')
+          })
+      </script>
+    </body>
+</html>
